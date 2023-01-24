@@ -1,6 +1,6 @@
 {
   "name": "knex-soql",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Knex.js dialect for building and executing Salesforce Queries (SOQL)",
   "main": "index.js",
   "types": "src/index.d.ts",
@@ -32,11 +32,11 @@
   "homepage": "https://github.com/jsarafajr/knex-soql#readme",
   "dependencies": {
     "jsforce": "^1.10.1",
-    "knex": ">=0.21.6",
+    "knex": ">=2.4.2",
     "lodash": "^4.17.21"
   },
   "peerDependencies": {
-    "knex": ">=0.21.6"
+    "knex": ">=2.4.2"
   },
   "devDependencies": {
     "codecov": "^3.8.1",
