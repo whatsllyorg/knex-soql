@@ -1,5 +1,5 @@
 declare module "knex-soql" {
-  import { Client } from "knex";
+  import { Knex } from "knex";
 
-  export default Client;
+  export default Knex.Client;
 }
