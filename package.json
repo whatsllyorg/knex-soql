@@ -3,6 +3,7 @@
   "version": "0.6.2",
   "description": "Knex.js dialect for building and executing Salesforce Queries (SOQL)",
   "main": "index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
